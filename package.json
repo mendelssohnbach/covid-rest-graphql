@@ -1,0 +1,22 @@
+{
+  "name": "rest-graphql-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js --watch src/",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "apollo-datasource-rest": "^3.5.1",
+    "apollo-server": "^3.6.3",
+    "graphql": "^16.3.0"
+  }
+}

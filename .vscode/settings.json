@@ -1,0 +1,230 @@
+{
+    "editor.fontFamily": "'HackGen35Nerd Console',monospace",
+    "editor.formatOnSave": true,
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "editor.fontSize": 17,
+    "editor.linkedEditing": true,
+    "editor.colorDecorators": true,
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [70, 80, 120],
+    "editor.wordWrap": "on",
+    "editor.wrappingIndent": "deepIndent",
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact",
+      "typescript": "typescriptreact"
+    },
+    "html.format.enable": false,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "editor.tabSize": 2,
+    "files.autoSave": "onFocusChange",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.openPositioning": "last",
+    "workbench.editor.pinnedTabSizing": "shrink",
+    "workbench.editor.showTabs": true,
+    "editor.guides.bracketPairs": true,
+    "editor.bracketPairColorization.enabled": true,
+    "files.insertFinalNewline": true,
+    "editor.renderFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "[markdown]": {
+      "editor.formatOnSave": false,
+      "files.trimTrailingWhitespace": false
+    },
+    "[python, yaml]": {
+      "editor.tabSize": 4
+    },
+    "remove-bg.apiKey": "Pn3yhwUtvzkU2LNVs3DxnAnV",
+    "cSpell.words": [
+      "Signup",
+      "uuidv"
+    ],
+    "cSpell.enabledLanguageIds": [
+      "css",
+      "git-commit",
+      "html",
+      "javascript",
+      "javascriptreact",
+      "json",
+      "jsonc",
+      "markdown",
+      "plaintext",
+      "python",
+      "text",
+      "typescript",
+      "typescriptreact",
+      "yml"
+    ],
+    "cSpell.ignoreRegExpList": ["[０-９Ａ-Ｚａ-ｚぁ-んァ-ヶ亜-熙纊-黑]+"],
+    "typescript.locale": "en",
+    "emmet.variables": {
+      "lang": "ja"
+    },
+    "commit-message-editor.staticTemplate": [
+      "feat: Short description",
+      "",
+      "Message body",
+      "",
+      "Message footer"
+    ],
+    "commit-message-editor.dynamicTemplate": [
+      "{type}{scope}: {description}",
+      "",
+      "{body}",
+      "",
+      "{breaking_change}{footer}"
+    ],
+    "commit-message-editor.tokens": [
+      {
+        "label": "Type",
+        "name": "type",
+        "type": "enum",
+        "combobox": true,
+        "options": [
+          {
+            "label": "🔖 bookmark",
+            "value": "🔖",
+            "description": "リリース/バージョンタグ"
+          },
+          {
+            "label": "🐛 bug",
+            "value": "🐛",
+            "description": "バグ修正"
+          },
+          {
+            "label": "🔥 fire",
+            "value": "🔥",
+            "description": "コードまたはファイルの削除"
+          },
+          {
+            "label": "➖ heavy-minus-sign",
+            "value": "➖",
+            "description": "依存関係を削除"
+          },
+          {
+            "label": "➕ heavy-plus-sign",
+            "value": "➕",
+            "description": "依存関係を追加"
+          },
+          {
+            "label": "💄 lipstick",
+            "value": "💄",
+            "description": "UIやスタイルの追加または更新"
+          },
+          {
+            "label": "📝 memo",
+            "value": "📝",
+            "description": "ドキュメントを追加または更新"
+          },
+          {
+            "label": "✏️ pencil2",
+            "value": "✏️",
+            "description": "タイポの修正"
+          },
+          {
+            "label": "✨ sparkles",
+            "value": "✨",
+            "description": "新機能の導入"
+          },
+          {
+            "label": "🎉 tada",
+            "value": "🎉",
+            "description": "プロジェクトの開始"
+          },
+          {
+            "label": "🚚 truck",
+            "value": "🚚",
+            "description": "リソースの移動またはリネーム"
+          }
+        ],
+        "description": "Type of changes"
+      },
+      {
+        "label": "Scope",
+        "name": "scope",
+        "description": "A scope may be provided to a commit’s type, to provide additional contextual information and is contained within parenthesis, e.g., \"feat(parser): add ability to parse arrays\".",
+        "type": "text",
+        "multiline": false,
+        "prefix": "(",
+        "suffix": ")"
+      },
+      {
+        "label": "Short description",
+        "name": "description",
+        "description": "Short description in the subject line.",
+        "type": "text",
+        "multiline": false
+      },
+      {
+        "label": "Body",
+        "name": "body",
+        "description": "Optional body",
+        "type": "text",
+        "multiline": true,
+        "lines": 5,
+        "maxLines": 10
+      },
+      {
+        "label": "Breaking change",
+        "name": "breaking_change",
+        "type": "boolean",
+        "value": "BREAKING CHANGE: ",
+        "default": false
+      },
+      {
+        "label": "Footer",
+        "name": "footer",
+        "description": "Optional footer",
+        "type": "text",
+        "multiline": true
+      }
+    ],
+    "commit-message-editor.view.defaultView": "form",
+    "commit-message-editor.view.saveAndClose": true,
+    "commit-message-editor.view.visibleViews": "form",
+    "commit-message-editor.view.useMonospaceEditor": true,
+    "commit-message-editor.view.rulers": [50, 70],
+    "debug.inlineValues": true,
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.dragAndDrop": false,
+    "editor.formatOnPaste": true,
+    "editor.minimap.maxColumn": 60,
+    "editor.minimap.size": "fit",
+    "editor.renderControlCharacters": true,
+    "explorer.incrementalNaming": "smart",
+    "search.showLineNumbers": true,
+    "terminal.integrated.confirmOnExit": "never",
+    "workbench.iconTheme": "material-icon-theme",
+    "debug.openDebug": "openOnSessionStart",
+    "debug.internalConsoleOptions": "openOnSessionStart",
+    "editor.wordSeparators": "~!@#$%^&*()-=+[{]}\\\\|;:'\\\",.<>/?　、。！？「」【】『』（）",
+    "terminal.integrated.wordSeparators": "`~!@#%^&*()=+─[{]}\\|;:'\",.<>/?",
+    "debug.allowBreakpointsEverywhere": true,
+    "files.associations": {
+      "*.js": "javascript",
+      "*.jsx": "javascriptreact",
+      "*.ts": "typescript",
+      "*.tsx": "typescriptreact",
+      "*.css": "css"
+    },
+    "explorer.compactFolders": false
+  }
+  
